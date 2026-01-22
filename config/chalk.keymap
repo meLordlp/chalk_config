@@ -106,13 +106,13 @@
                 function_layer{
                         // -----------------------------------------------------------------------------------------
                         // | TAB  |  F1   |  F2    |  F3   |   F4  | F5    |     |     |     |     |     |     | BKSP |
-                        // | CTRL |  F6   |  F7    |  F8   |   F9  |  F10  |     | BT0 | BT1 | BT2 | BT3 | BT4 | BTCLR|
-                        // | SHFT |  F11  |  F12   |  F13  |       |       |     |     |     |     |     |     |      |
+                        // | SHFT |  F6   |  F7    |  F8   |   F9  |  F10  |     | BT0 | BT1 | BT2 | BT3 | BT4 | BTCLR|
+                        // | CTRL |  F11  |  F12   |  F13  |       |       |     |     |     |     |     |     |      |
                         //                    | GUI |     | SPC |   | ENT |     | ALT |
                         bindings = <
-                            &esc_ctrl LCTRL TAB &kp F1  &kp F2  &kp F3  &kp F4  &kp F5       &trans &trans &trans &trans &trans &kp BSPC
-                            &kp ESC &kp F6  &kp F7  &kp F8  &kp F9  &kp F10      &kp BT_SEL 0 &kp BT_SEL 1 &kp BT_SEL 2 &kp BT_SEL 3 &kp BT_SEL 4 &kp BT_CLR
-                            &kp LSHFT &kp F11 &kp F12 &kp F13 &trans  &trans       &trans &trans &trans &trans &trans &trans
+                            &kp  TAB &kp F1  &kp F2  &kp F3  &kp F4  &kp F5       &trans &trans &trans &trans &trans &kp BSPC
+                            &kp LSHFT &kp F6  &kp F7  &kp F8  &kp F9  &kp F10      &kp BT_SEL 0 &kp BT_SEL 1 &kp BT_SEL 2 &kp BT_SEL 3 &kp BT_SEL 4 &kp BT_CLR
+                            &kp LCTRL &kp F11 &kp F12 &kp F13 &trans  &trans       &trans &trans &trans &trans &trans &trans
                                                       &kp LGUI &trans   &kp SPACE   &kp RET   &trans    &kp RALT
                         >;
 
